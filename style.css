@@ -1,0 +1,139 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+    min-height: 1500px; 
+    position: relative;
+}
+
+
+div {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.box-static {
+    width: 150px;
+    height: 100px;
+    background-color: #b3d9ff; /* Голубой */
+    border: 1px solid #000;
+    margin: 10px 0 10px 10px;
+}
+
+
+.box-relative-1 {
+    width: 150px;
+    height: 100px;
+    background-color: #99ff99; /* Светло-зеленый */
+    border: 1px solid #000;
+    
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.box-relative-2 {
+    width: 200px;
+    height: 150px;
+    background-color: #ffb3d9; /* Розовый */
+    border: 1px solid #000;
+    
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.container {
+    width: 450px;
+    height: 450px;
+    background-color: #d3d3d3; 
+    position: relative;
+    
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.box-absolute-1 {
+    width: 150px;
+    height: 150px;
+    background-color: #ff9966; /* Оранжевый */
+    border: 1px solid #000;
+    
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3; /* Выше остальных */
+}
+
+.box-absolute-2 {
+    width: 180px;
+    height: 180px;
+    background-color: #87ceeb; /* Голубой */
+    border: 1px solid #000;
+    
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 2;
+}
+
+.box-absolute-3 {
+    width: 200px;
+    height: 200px;
+    background-color: #800080; /* Фиолетовый */
+    border: 1px solid #000;
+    
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.box-zindex-1 {
+    width: 250px;
+    height: 250px;
+    background-color: #ff7f7f; /* Розово-красный */
+    border: 1px solid #000;
+    
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    z-index: 5; /* Самый верхний */
+}
+
+.box-zindex-2 {
+    width: 250px;
+    height: 250px;
+    background-color: #20b2aa; /* Бирюзовый */
+    border: 1px solid #000;
+    
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    z-index: 4;
+}
+
+.box-fixed-1 {
+    width: 120px;
+    height: 80px;
+    background-color: #ffff00; /* Желтый */
+    border: 1px solid #000;
+    
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 10; /* Поверх всего */
+}
+
+.box-fixed-2 {
+    width: 150px;
+    height: 100px;
+    background-color: #ffa500; /* Оранжевый */
+    border: 1px solid #000;
+    
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 10; /* Поверх всего */
+}
